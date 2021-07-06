@@ -19,8 +19,8 @@
 		"eslint": "eslint .",
 		"typecheck": "tsc",
 		"prettier": "prettier --write .",
-		"stylelint": "stylelint --syntax=scss **/*.{scss}",
-		"stylelint:fix": "stylelint --syntax=scss --fix **/*.{scss}",
+		"stylelint": "stylelint --syntax=scss **/*.scss",
+		"stylelint:fix": "yarn stylelint --fix",
 		"prepare": "husky install"
 	},
 	"dependencies": {
